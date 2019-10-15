@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="screen" onclick="closeAll()"></div>
+    <div class="modal" onclick="modalToggle()"></div>
+    <div class="main-header">
+        <div class="main-header-nav container">
+            <div class="logo">Blogin<span style="color:green">.</span></div>
+            <i onclick="navToggle()" class="hamburger fa fa-bars"></i>
+            <ul class="main-nav flex">
+                <li class="flex active"><a href="#">Journal</a></li>
+                <li class="flex center-h"><a href="#">About</a></li>
+                <li class="flex center-h"><a href="#">Work</a></li>
+                <li class="flex center-h"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sections-container container">
+        <Section class="card flex">
+            <img class="card-img" src="img/Layer_2.png" alt="">
+            <div class="card-info">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <div class="card-text">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex
+                        ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur...
+                    </p>
+                </div>
+                <button class="read" onclick="modalToggle()">Countinue Reading</button>
+            </div>
+        </Section>
+        <Section class="card flex">
+            <img class="card-img" src="img/Layer_3.png" alt="">
+            <div class="card-info">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
+
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="read" onclick="modalToggle()">Countinue Reading</button>
+            </div>
+        </Section>
+        <Section class="card flex">
+            <img class="card-img" src="img/Layer_4.png" alt="">
+            <div class="card-info">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex
+                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br />
+
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="read" onclick="modalToggle()">Countinue Reading</button>
+            </div>
+        </Section>
+        <div class="move-cards flex center-h space-between">
+            <a class="flex center-h"><img src="img/Layer_1_copy_2.png" alt="" style="margin: 10px;"> Previous</a>
+            <a class="flex center-h">Next <img src="img/Layer_1_copy.png" alt="" style="margin: 10px;"></a>
+        </div>
+    </div>
+    <footer class="flex center-h">
+        <div class="logo-footer">Blogin</div>
+        <small>© <a href="Blogin.com">Blogin.com</a> - All Rights Reserved - Find more free Templates at
+            Pixelhint.com</small>
+        <div class="img-footer flex space-between">
+            <a href="#" class="a">
+                <div class="icon-footer flex center-h"><i class="fa fa-twitter"></i></div>
+            </a>
+            <a href="#" class="a">
+                <div class="icon-footer flex center-h"><i class="fa fa-facebook-f sm-icon-footer"></i></div>
+            </a>
+            <a href="#" class="a">
+                <div class="icon-footer flex center-h"><i class="fa fa-twitter"></i></div>
+            </a>
+            <a href="#" class="a">
+                <div class="icon-footer flex center-h"><i class="fa fa-facebook-f sm-icon-footer"></i></div>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
